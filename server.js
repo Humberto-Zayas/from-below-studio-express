@@ -49,6 +49,7 @@ app.post('/api/login', async (req, res) => {
   }
 });
 
+
 // New route for booking
 app.post("/api/bookings", async (req, res) => {
   try {
